@@ -1,13 +1,13 @@
 {
-    "name" : "smart_phone_video",
-    "short_name" : "smart_phone_video",
+    "name" : "video_app",
+    "short_name" : "video_app",
     "theme_color" : "#ffe4b5",
     "background_color" : "#ffe4b5",
     "display" : "standalone",
-    "start_url" : "./home.html",
+    "start_url" : "./index.html",
     "icons" : [
         {
-            "src" : ".images/logo.png",
+            "src" : "./images/logo.png",
             "sizes" : "1200x1200",
             "type" : "image/png"
         }
