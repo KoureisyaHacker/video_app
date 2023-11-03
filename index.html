@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <!--このページはアプリのホーム画面になる予定-->
+    <!--その他のページは'./pages','./css',画像は'./images'に入れてください-->
+    <head>
+        <meta charset="utf-8">
+        <!--マニュフェストファイルの呼び出し-->
+        <link rel="manifest" href="./manifest.json">
+        <title>高齢者向けの動画アプリ</title>
+
+    </head>
+    <body>
+        <h1>
+            <!--この行はテストで入れているので消してよい-->
+            高齢者ハッカー
+        </h1>
+        <!--Service Workerの呼び出し-->
+        <script>
+            if ('serviceWorker' in navigator){
+                navigator.serviceWorker.register('./sw.js').then(registration => {
+                    console.log('ServiceWorker registration successful.');
+                }).catch(err => {
+                    console.log('ServiceWorker registration failed.');
+                });
+            }
+        </script>
+    </body>
+</html>

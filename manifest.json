@@ -1,0 +1,16 @@
+{
+    "name" : "smart_phone_video",
+    "short_name" : "smart_phone_video",
+    "theme_color" : "#ffe4b5",
+    "background_color" : "#ffe4b5",
+    "display" : "standalone",
+    "start_url" : "./home.html",
+    "icons" : [
+        {
+            "src" : ".images/logo.png",
+            "sizes" : "1200x1200",
+            "type" : "image/png"
+        }
+    ]
+
+}
