@@ -10,7 +10,7 @@ const CACHE_KEY = `${CACHE_NAME}:${CACHE_VERSION}`;
 //キャッシュ対象のファイルを選択（スコープからの相対パス）
 const CACHE_FILES = [
     './',
-    './home.html'
+    './index.html'
     //ファイルを追加したらここにパスを追加
 ].map(path => new URL(path,registration.scope).pathname);
 
